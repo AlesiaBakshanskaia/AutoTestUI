@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08d41107-f8c9-46c7-a618-e9b6ea2ef992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AdditionalTaskAbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumHW1AdditionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumHW1Test.java" afterDir="false" />
+    <list default="true" id="08d41107-f8c9-46c7-a618-e9b6ea2ef992" name="Changes" comment="HW1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeWork2/CredentialsModalWindowPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeWork2/EditingDummyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeWork2/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeWork2/RowDummiesList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeWork2/StudentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeWork2/AuthorizationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeWork2/DummyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeWork2/HomeWork2AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AdditionalTaskAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork1/AdditionalTaskAbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumHW1AdditionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork1/SeleniumHW1AdditionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumHW1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homeWork1/SeleniumHW1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,60 +61,92 @@
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestUI\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SeleniumHW1AdditionalTest.dragAndDrop">
-    <configuration name="SeleniumHW1AdditionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DummyTest">
+    <configuration name="AuthorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumHW1AdditionalTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeWork2" />
+      <option name="MAIN_CLASS_NAME" value="homeWork2.AuthorizationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumHW1AdditionalTest.dragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthorizationTest.testEmptyLoginAndPasswordAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumHW1AdditionalTest" />
-      <option name="METHOD_NAME" value="dragAndDrop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeWork2" />
+      <option name="MAIN_CLASS_NAME" value="homeWork2.AuthorizationTest" />
+      <option name="METHOD_NAME" value="testEmptyLoginAndPasswordAuthorization" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumHW1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumHW1Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeWork2" />
+      <option name="MAIN_CLASS_NAME" value="homeWork2.DummyTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumHW1Test.createDummyAfterAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DummyTest.testCredentialsModalWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumHW1Test" />
-      <option name="METHOD_NAME" value="createDummyAfterAuthorization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeWork2" />
+      <option name="MAIN_CLASS_NAME" value="homeWork2.DummyTest" />
+      <option name="METHOD_NAME" value="testCredentialsModalWindow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java in AutoTestUI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DummyTest.testEditingDummyById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUI" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeWork2" />
+      <option name="MAIN_CLASS_NAME" value="homeWork2.DummyTest" />
+      <option name="METHOD_NAME" value="testEditingDummyById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SeleniumHW1AdditionalTest.dragAndDrop" />
-        <item itemvalue="JUnit.SeleniumHW1AdditionalTest" />
-        <item itemvalue="JUnit.java in AutoTestUI" />
-        <item itemvalue="JUnit.SeleniumHW1Test" />
-        <item itemvalue="JUnit.SeleniumHW1Test.createDummyAfterAuthorization" />
+        <item itemvalue="JUnit.DummyTest" />
+        <item itemvalue="JUnit.DummyTest.testEditingDummyById" />
+        <item itemvalue="JUnit.DummyTest.testCredentialsModalWindow" />
+        <item itemvalue="JUnit.AuthorizationTest.testEmptyLoginAndPasswordAuthorization" />
+        <item itemvalue="JUnit.AuthorizationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +159,18 @@
       <option name="presentableId" value="Default" />
       <updated>1705933409605</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW1">
+      <created>1706122787147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706122787147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW1" />
   </component>
 </project>

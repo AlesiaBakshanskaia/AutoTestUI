@@ -43,6 +43,12 @@
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.codeborne</groupId>-->
+<!--            <artifactId>selenide</artifactId>-->
+<!--            <version>7.0.4</version>-->
+<!--        </dependency>-->
     </dependencies>
 
 </project>

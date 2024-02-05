@@ -32,7 +32,6 @@ public class CredentialsModalWindowPage {
 
     public Boolean checkTextInContentModalWindow(String text) {
         String textContent = wait.until(ExpectedConditions.visibilityOf(contentModalWindow)).getText();
-        System.out.println(textContent);
         return textContent.contains(text);
     }
 }

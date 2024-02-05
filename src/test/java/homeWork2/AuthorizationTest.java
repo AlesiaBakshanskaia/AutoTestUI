@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public class AuthorizationTest extends HomeWork2AbstractTest{
 
     @Test
-    void testEmptyLoginAndPasswordAuthorization() {
+    void testEmptyLoginAndPasswordAuthorization() throws InterruptedException {
         driver.get("https://test-stand.gb.ru/login");
         LoginPage loginPage = new LoginPage(driver, wait);
         loginPage.authorize("", "");
@@ -21,5 +21,6 @@ public class AuthorizationTest extends HomeWork2AbstractTest{
         WebElement numErrorAuthorization = driver
                 .findElement(By.xpath("//h2[@class='svelte-uwkxn9']"));
         Assertions.assertEquals("401", numErrorAuthorization.getText());
+        Thread.sleep(10000L);
     }
 }

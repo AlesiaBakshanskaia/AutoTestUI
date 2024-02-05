@@ -15,21 +15,23 @@ import java.net.URL;
 import java.time.Duration;
 
 public class HomeWork2AbstractTest {
-    static WebDriver driver;
+    static RemoteWebDriver driver;
     static WebDriverWait wait;
 
     @BeforeAll
     static void init() throws MalformedURLException {
-        // Без selenoid
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("start-maximized");
-//        options.addArguments("incognito");
-//        driver = new ChromeDriver(options);
-        //Selenoid
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
         capabilities.setVersion("120");
-        capabilities.setCapability("enableVnc", true);
+//        capabilities.setCapability("enableVNC",true);
+        ChromeOptions options = new ChromeOptions();
+        options.setCapability("enableVNC",true);
+        options.addArguments("start-maximized");
+        options.addArguments("incognito");
+        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+        // Без selenoid
+//        driver = new ChromeDriver(options);
         driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
         wait = new WebDriverWait(driver, Duration.ofSeconds(7));
     }
